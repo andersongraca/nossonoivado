@@ -1,0 +1,72 @@
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.project
+.pydevproject
+.settings/
+*.tern-port
+
+# Node.js (se usar ferramentas de build)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Ambiente Local
+.env
+.env.local
+.env.*.local
+
+# Build e Distribuição
+dist/
+build/
+*.min.js
+*.min.css
+
+# Logs
+logs/
+*.log
+
+# Arquivos Temporários
+tmp/
+temp/
+*.tmp
+
+# Arquivos de Backup
+*.bak
+*.backup
+*~
+
+# Arquivos Comprimidos
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Arquivos de Configuração Pessoal
+.config/
+config.local.js
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+dist/
+
+# Arquivos Específicos do Projeto (se necessário)
+# Adicione aqui arquivos específicos que não devem ser versionados
