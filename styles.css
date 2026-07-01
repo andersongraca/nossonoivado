@@ -146,33 +146,7 @@ body {
 
 
 
-.hero-decoration.heart-top-left {
-    width: 80px;
-    height: 80px;
-    top: 15%;
-    left: 8%;
-}
 
-.hero-decoration.heart-bottom-right {
-    width: 70px;
-    height: 70px;
-    bottom: 20%;
-    right: 8%;
-}
-
-.hero-decoration.ring-top-right {
-    width: 100px;
-    height: 100px;
-    top: 12%;
-    right: 8%;
-}
-
-.hero-decoration.ring-bottom-left {
-    width: 90px;
-    height: 90px;
-    bottom: 15%;
-    left: 8%;
-}
 
 .hero-content {
     animation: fadeInUp 1s ease-out;
