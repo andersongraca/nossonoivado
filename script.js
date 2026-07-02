@@ -18,7 +18,7 @@ let isAudioPlaying = false;
 function initializeAudio() {
     audioElement = document.createElement('audio');
     audioElement.id = 'background-music';
-    audioElement.src = 'background-music.wav';
+    audioElement.src = 'background-music.mp3';
     audioElement.loop = true;
     audioElement.volume = 0.3;
     audioElement.preload = 'auto';
