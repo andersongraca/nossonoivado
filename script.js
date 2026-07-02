@@ -22,10 +22,14 @@ function initializeAudio() {
     audioElement.loop = true;
     audioElement.volume = 0.3;
     audioElement.preload = 'auto';
+    audioElement.muted = false;
     document.body.appendChild(audioElement);
     
     createAudioControl();
-    attemptAutoPlay();
+    // Tentar autoplay com delay
+    setTimeout(() => {
+        attemptAutoPlay();
+    }, 500);
 }
 
 function createAudioControl() {
