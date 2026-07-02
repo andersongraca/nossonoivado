@@ -637,36 +637,7 @@ body {
     font-weight: 500;
 }
 
-.comfort-widget {
-    background: linear-gradient(135deg, #B2AC88 0%, #708238 100%);
-    border-radius: 15px;
-    padding: 2rem 1.5rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    box-shadow: 0 8px 24px rgba(112, 130, 56, 0.15);
-    animation: fadeInUp 0.8s ease-out;
-}
 
-.comfort-widget-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    display: block;
-}
-
-.comfort-widget-title {
-    font-family: var(--font-display);
-    font-size: 1.2rem;
-    color: white;
-    margin-bottom: 0.8rem;
-    font-weight: 700;
-}
-
-.comfort-widget-text {
-    color: rgba(255, 255, 255, 0.95);
-    font-size: 0.95rem;
-    line-height: 1.6;
-    font-family: var(--font-serif);
-}
 
 .comfort-items {
     display: grid;
