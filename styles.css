@@ -6,10 +6,10 @@
     /* Paleta Premium: Azul Marinho, Branco e Dourado */
     --azul-marinho: #1A2B4C;      /* Fundo/Base - Autoridade, Confiança, Elegância */
     --branco: #FFFFFF;             /* Contraste e Textos - Pureza, Clareza, Paz */
-    --dourado: #D4AF37;             /* Detalhes e Destaque - Luxo, Prestígio, Sucesso */
+    --dourado: #C9A961;             /* Detalhes e Destaque - Luxo, Prestígio, Sucesso */
     
     /* Cores legadas (mantidas para compatibilidade) */
-    --verde-salvia: #D4AF37;        /* Substituído por Dourado */
+    --verde-salvia: #C9A961;        /* Substituído por Dourado */
     --verde-oliva: #1A2B4C;         /* Substituído por Azul Marinho */
     --champagne: #1A2B4C;           /* Substituído por Azul Marinho */
     --cinza: #F5F5F5;
@@ -102,7 +102,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, var(--champagne) 0%, rgba(212, 175, 55, 0.1) 100%);
+    background: linear-gradient(135deg, var(--champagne) 0%, rgba(201, 169, 97, 0.1) 100%);
     padding: 2rem 1rem;
     text-align: center;
     position: relative;
@@ -117,7 +117,7 @@ body {
     right: -10%;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.08) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -129,7 +129,7 @@ body {
     left: -5%;
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.06) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -177,7 +177,7 @@ body {
     color: var(--dourado);
     margin-bottom: 1rem;
     letter-spacing: -0.5px;
-    text-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+    text-shadow: 0 2px 8px rgba(201, 169, 97, 0.3);
 }
 
 .hero-subtitle {
@@ -234,7 +234,7 @@ body {
     left: -5%;
     width: 250px;
     height: 250px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.07) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.07) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -246,7 +246,7 @@ body {
     right: -8%;
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.05) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -255,10 +255,10 @@ body {
     max-width: 700px;
     margin: 0 auto;
     padding: 2rem;
-    background: linear-gradient(135deg, rgba(247, 231, 206, 0.5) 0%, rgba(212, 175, 55, 0.08) 100%);
+    background: linear-gradient(135deg, rgba(247, 231, 206, 0.5) 0%, rgba(201, 169, 97, 0.08) 100%);
     border-left: 4px solid var(--verde-salvia);
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(212, 175, 55, 0.1);
+    box-shadow: 0 2px 8px rgba(201, 169, 97, 0.1);
     position: relative;
     z-index: 2;
 }
@@ -283,7 +283,7 @@ body {
 
 .event-details {
     width: 100%;
-    background: linear-gradient(135deg, var(--champagne) 0%, rgba(212, 175, 55, 0.1) 100%);
+    background: linear-gradient(135deg, var(--champagne) 0%, rgba(201, 169, 97, 0.1) 100%);
     padding: 3rem 1rem;
     position: relative;
     z-index: 1;
@@ -297,7 +297,7 @@ body {
     right: -5%;
     width: 350px;
     height: 350px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.06) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -309,7 +309,7 @@ body {
     left: -10%;
     width: 280px;
     height: 280px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.07) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.07) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -364,14 +364,14 @@ body {
     right: -30%;
     width: 150px;
     height: 150px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.06) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
 
 .detail-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 16px rgba(212, 175, 55, 0.15);
+    box-shadow: 0 4px 16px rgba(201, 169, 97, 0.15);
     border-top-color: var(--dourado);
 }
 
@@ -431,7 +431,7 @@ body {
     left: -8%;
     width: 320px;
     height: 320px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.07) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.07) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -443,7 +443,7 @@ body {
     right: -5%;
     width: 280px;
     height: 280px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.06) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -451,11 +451,11 @@ body {
 .location-wrapper {
     max-width: 900px;
     margin: 0 auto;
-    background: linear-gradient(135deg, rgba(247, 231, 206, 0.4) 0%, rgba(212, 175, 55, 0.08) 100%);
+    background: linear-gradient(135deg, rgba(247, 231, 206, 0.4) 0%, rgba(201, 169, 97, 0.08) 100%);
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 16px rgba(212, 175, 55, 0.12);
-    border: 1px solid rgba(212, 175, 55, 0.2);
+    box-shadow: 0 4px 16px rgba(201, 169, 97, 0.12);
+    border: 1px solid rgba(201, 169, 97, 0.2);
     position: relative;
     z-index: 2;
 }
@@ -484,7 +484,7 @@ body {
     right: -10%;
     width: 200px;
     height: 200px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.05) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -548,12 +548,12 @@ body {
 .btn-primary {
     background: linear-gradient(135deg, var(--verde-salvia) 0%, var(--verde-oliva) 100%);
     color: var(--branco);
-    box-shadow: 0 2px 8px rgba(212, 175, 55, 0.2);
+    box-shadow: 0 2px 8px rgba(201, 169, 97, 0.2);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 4px 16px rgba(201, 169, 97, 0.3);
 }
 
 .btn-secondary {
@@ -567,7 +567,7 @@ body {
     background: var(--verde-salvia);
     color: var(--branco);
     transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(212, 175, 55, 0.2);
+    box-shadow: 0 4px 16px rgba(201, 169, 97, 0.2);
 }
 
 .btn-whatsapp {
@@ -590,7 +590,7 @@ body {
 
 .comfort {
     width: 100%;
-    background: linear-gradient(135deg, var(--champagne) 0%, rgba(212, 175, 55, 0.05) 100%);
+    background: linear-gradient(135deg, var(--champagne) 0%, rgba(201, 169, 97, 0.05) 100%);
     padding: 3rem 1rem;
     position: relative;
     z-index: 1;
@@ -604,7 +604,7 @@ body {
     right: -10%;
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.06) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -616,7 +616,7 @@ body {
     left: -5%;
     width: 250px;
     height: 250px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.07) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.07) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -628,7 +628,7 @@ body {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(212, 175, 55, 0.15);
+    border: 1px solid rgba(201, 169, 97, 0.15);
     position: relative;
     z-index: 2;
 }
@@ -656,10 +656,10 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1.2rem;
-    background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(247, 231, 206, 0.4) 100%);
+    background: linear-gradient(135deg, rgba(201, 169, 97, 0.15) 0%, rgba(247, 231, 206, 0.4) 100%);
     border-radius: 8px;
     transition: all 0.3s ease;
-    border: 1px solid rgba(212, 175, 55, 0.1);
+    border: 1px solid rgba(201, 169, 97, 0.1);
     position: relative;
     overflow: hidden;
 }
@@ -671,15 +671,15 @@ body {
     left: -20%;
     width: 120px;
     height: 120px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.06) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
 
 .comfort-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 2px 8px rgba(212, 175, 55, 0.1);
-    background: linear-gradient(135deg, rgba(212, 175, 55, 0.25) 0%, rgba(247, 231, 206, 0.5) 100%);
+    box-shadow: 0 2px 8px rgba(201, 169, 97, 0.1);
+    background: linear-gradient(135deg, rgba(201, 169, 97, 0.25) 0%, rgba(247, 231, 206, 0.5) 100%);
 }
 
 .comfort-emoji {
@@ -720,7 +720,7 @@ body {
     left: -5%;
     width: 280px;
     height: 280px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.07) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.07) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -732,7 +732,7 @@ body {
     right: -10%;
     width: 320px;
     height: 320px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.06) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -781,7 +781,7 @@ body {
 
 .confirmation {
     width: 100%;
-    background: linear-gradient(135deg, var(--champagne) 0%, rgba(212, 175, 55, 0.15) 100%);
+    background: linear-gradient(135deg, var(--champagne) 0%, rgba(201, 169, 97, 0.15) 100%);
     padding: 3rem 1rem;
     position: relative;
     z-index: 1;
@@ -795,7 +795,7 @@ body {
     right: -8%;
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.06) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -807,7 +807,7 @@ body {
     left: -10%;
     width: 280px;
     height: 280px;
-    background: radial-gradient(circle, rgba(212, 175, 55, 0.07) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.07) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -818,7 +818,7 @@ body {
     background: linear-gradient(135deg, var(--branco) 0%, rgba(247, 231, 206, 0.2) 100%);
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(212, 175, 55, 0.12);
+    box-shadow: 0 4px 16px rgba(201, 169, 97, 0.12);
     text-align: center;
     border: 2px solid var(--verde-salvia);
     position: relative;
