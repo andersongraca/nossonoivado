@@ -169,6 +169,7 @@ body {
     margin-bottom: 1rem;
     letter-spacing: -0.5px;
     text-shadow: 0 2px 8px rgba(201, 169, 97, 0.2);
+    text-align: center;
 }
 
 .hero-subtitle {
@@ -463,6 +464,19 @@ body {
     box-shadow: 0 6px 16px rgba(201, 169, 97, 0.3);
 }
 
+.button-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-group .btn {
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
+}
+
 /* ========================================
    COMFORT SECTION
    ======================================== */
@@ -666,6 +680,16 @@ body {
     
     .detail-item {
         padding: 1rem;
+    }
+    
+    .button-group {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .button-group .btn {
+        width: 100%;
+        max-width: 100%;
     }
 }
 
